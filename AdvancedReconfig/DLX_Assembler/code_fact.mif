@@ -1,0 +1,33 @@
+DEPTH = 1024;
+WIDTH = 32;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = HEX;
+CONTENT
+BEGIN
+
+000 : 05400000	--	LW		R10, n(R0)
+001 : 0C205000	--    ADD     R1, R0, R10
+002 : 204A0001	--    SUBI    R2, R10, 1
+003 : 214A0001	--    SUBI    R10, R10, 1
+004 : 0C8A0000	--    ADD     R4, R10, R0
+005 : 816A0001	--	SLEI	R11, R10, 1
+006 : B1600017	--	BNEZ	R11, done
+007 : BC00000D	--    JAL     multiply
+008 : 08800001	--    SW      result(R0), R4
+009 : 0C240000	--    ADD     R1, R4, R0
+00A : 214A0001	--	SUBI	R10, R10, 1
+00B : 0C4A0000	--    ADD     R2, R10, R0
+00C : B4000005	--	J		top
+00D : 10810000	--    ADDI    R4, R1, 0
+00E : 10A10000	--    ADDI    R5, R1, 0
+00F : 10C20000	--    ADDI    R6, R2, 0
+010 : 81660001	--    SLEI	R11, R6, 1
+011 : B1600015	--	BNEZ	R11, exit0
+012 : 0C842800	--    ADD     R4, R4, R5
+013 : 20C60001	--    SUBI    R6, R6, 1
+014 : B4000010	--    J       top1
+015 : B800001F	--    JR      R31
+016 : 08600001	--	SW		result(R0), R3
+017 : B4000017	--	J		done
+
+END;

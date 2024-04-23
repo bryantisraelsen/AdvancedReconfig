@@ -1,0 +1,17 @@
+1. UART (Baud rate, data bits, stop bits, parity bits, oversampling)
+2. Simple processor blocks (what are the necessary parts of the processor, i.e. PC, ALU, etc)
+3. DLX Assembly (Register, Immediate, Memory, Jump)
+4. DLX Pipeline (FDEMW)
+5. Student Presentations
+    a. Power PC - (RISC architecture based on DLX hasn't been in production for a while)
+        -Developed by AIM (Apple, IBM, Motorola)
+    b. MIPS
+        - Used in N64
+    c. Nios II
+        - intel soft core processor 
+    d. SmartFusion 2
+        - System on chip, (Hard processor (ARM7)), surrounded by FPGA
+    e. MicroBlaze
+        - AMD (Xilinx) soft core processor
+6. Be prepared to write assembly code
+7. Be prepared to run assembly code in your head

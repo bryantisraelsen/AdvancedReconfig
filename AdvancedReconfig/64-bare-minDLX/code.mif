@@ -1,0 +1,79 @@
+DEPTH = 1024;
+WIDTH = 32;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = HEX;
+CONTENT
+BEGIN
+
+000 : 10200000;	--    ADDI    R1, R0, 0
+001 : 9161001F;	--    SGEI	R11, R1, 31
+002 : B1600007;	--	BNEZ	R11, printdone
+003 : 0521000D;	--    LW      R9, s1(R1)
+004 : C4000009;	--    PCH     R9
+005 : 10210001;	--    ADDI    R1, R1, 1
+006 : B4000001;	--    J       printstr
+007 : 1020000A;	--    ADDI    R1, R0, 10
+008 : C4000001;	--    PCH     R1
+009 : 1020000D;	--    ADDI    R1, R0, 13
+00A : C4000001;	--    PCH     R1
+00B : 10400000;	--    ADDI    R2, R0, 0
+00C : 10200000;	--    ADDI    R1, R0, 0
+00D : 9162000C;	--    SGEI	R11, R2, 12
+00E : B1600026;	--	BNEZ	R11, startExec
+00F : 91610010;	--    SGEI	R11, R1, 16
+010 : B1600015;	--	BNEZ	R11, printdone3
+011 : 0521002C;	--    LW      R9, q1(R1)
+012 : C4000009;	--    PCH     R9
+013 : 10210001;	--    ADDI    R1, R1, 1
+014 : B400000F;	--    J       printstr3
+015 : CC000002;	--    PDU     R2
+016 : 10200000;	--    ADDI    R1, R0, 0
+017 : 0521003C;	--    LW      R9, q2(R1)
+018 : C4000009;	--    PCH     R9
+019 : 1020000A;	--    ADDI    R1, R0, 10
+01A : C4000001;	--    PCH     R1
+01B : 1020000D;	--    ADDI    R1, R0, 13
+01C : C4000001;	--    PCH     R1
+01D : D5400000;	--    GDU     R10
+01E : 09420000;	--    SW      n(R2), R10
+01F : CC00000A;	--    PDU     R10
+020 : 1020000A;	--    ADDI    R1, R0, 10
+021 : C4000001;	--    PCH     R1
+022 : 1020000D;	--    ADDI    R1, R0, 13
+023 : C4000001;	--    PCH     R1
+024 : 10420001;	--    ADDI    R2, R2, 1
+025 : B400000C;	--    J       inputprint
+026 : D8000000;	--    TR
+027 : DC000000;	--    TGO
+028 : 10C00000;	--    ADDI    R6, R0, 0
+029 : 10C60001;	--    ADDI    R6, R6, 1
+02A : 9166000C;	--    SGEI	R11, R6, 12
+02B : B1600032;	--	BNEZ	R11, finishCall
+02C : 20A60001;	--    SUBI    R5, R6, 1
+02D : 04250000;	--    LW      R1, n(R5)
+02E : 04460000;	--    LW      R2, n(R6)
+02F : BC000039;	--    JAL     LCM
+030 : 08860000;	--    SW      n(R6), R4
+031 : B4000029;	--    J       callLoop
+032 : E4000004;	--    PSU     R4
+033 : 1020000A;	--    ADDI    R1, R0, 10
+034 : C4000001;	--    PCH     R1
+035 : 1020000D;	--    ADDI    R1, R0, 13
+036 : C4000001;	--    PCH     R1
+037 : E0000000;	--    TSP
+038 : B4000000;	--	J		tippytop
+039 : 0D010000;	--    ADD     R8, R1, R0
+03A : 0D220000;	--    ADD     R9, R2, R0
+03B : 9CE84800;	--    SEQ     R7, R8, R9
+03C : B0E00043;	--    BNEZ    R7, doneFun
+03D : 8D484800;	--    SGE     R10, R8, R9
+03E : B1400041;	--    BNEZ    R10, lessThan
+03F : E9080800;	--    ADDX    R8, R8, R1
+040 : B400003B;	--    J       cmpVAl
+041 : ED291000;	--    ADDY    R9, R9, R2
+042 : B400003B;	--    J       cmpVAl
+043 : F0000000;	--    CLS
+044 : 0C880000;	--    ADD     R4, R8, R0
+045 : B800001F;	--    JR      R31
+
+END;

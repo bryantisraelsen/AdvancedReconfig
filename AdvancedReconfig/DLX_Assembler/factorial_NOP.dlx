@@ -1,0 +1,123 @@
+;This is a comment
+;Comments always consume entire lines
+	
+	.data
+	
+n		1	8
+result	1	0
+testing 1   -545
+
+	.text
+    ;load starting value into R10 and R1, put starting value - 1 in R2
+	LW		R10, n(R0)
+    NOP
+    NOP
+    NOP
+    ADD     R1, R0, R10
+    NOP
+    NOP
+    NOP
+    SUBI    R2, R10, 1
+    NOP
+    NOP
+    NOP
+    SUBI    R10, R10, 1
+    NOP
+    NOP
+    NOP
+    ADD     R4, R10, R0
+    ;loop here until R10 (starting value) is 1
+top
+	SLEI	R11, R10, 1
+    NOP
+    NOP
+    NOP
+	BNEZ	R11, done
+    NOP
+    NOP
+    NOP
+    ;multiply R1 with R2 (assuming R1, R2 are not changed with function call (input parameters), R4 is return value)
+    JAL     multiply
+    NOP
+    NOP
+    NOP
+    ;store return value in result
+    SW      result(R0), R4
+    NOP
+    NOP
+    NOP
+    ;store current return value in R1 for next multiplication
+    ADD     R1, R4, R0
+    NOP
+    NOP
+    NOP
+    ;decrement R10 and store it in R2 (so ready for next multiply)
+	SUBI	R10, R10, 1
+    NOP
+    NOP
+    NOP
+    ADD     R2, R10, R0
+    NOP
+    NOP
+    NOP
+	J		top
+    NOP
+    NOP
+    NOP
+
+    ;load R1 into R4 and R5 and load R2 into R6 (R5 won't change and R4 is return value)
+multiply
+    ADDI    R4, R1, 0
+    NOP
+    NOP
+    NOP
+    ADDI    R5, R1, 0
+    NOP
+    NOP
+    NOP
+    ADDI    R6, R2, 0
+    NOP
+    NOP
+    NOP
+
+    ;loop here until R6 is 1
+top1
+    SLEI	R11, R6, 1
+    NOP
+    NOP
+    NOP
+	BNEZ	R11, exit0
+    NOP
+    NOP
+    NOP
+    ;add R4 to R5 and store in R4
+    ADD     R4, R4, R5
+    NOP
+    NOP
+    NOP
+    SUBI    R6, R6, 1
+    NOP
+    NOP
+    NOP
+    J       top1
+    NOP
+    NOP
+    NOP
+exit0
+    JR      R31
+    NOP
+    NOP
+    NOP
+	
+exit
+	SW		result(R0), R3
+    NOP
+    NOP
+    NOP
+
+done
+	J		done
+    NOP
+    NOP
+    NOP
+	

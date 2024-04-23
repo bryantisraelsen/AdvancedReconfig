@@ -1,0 +1,127 @@
+DEPTH = 1024;
+WIDTH = 32;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = HEX;
+CONTENT
+BEGIN
+
+000 : 10200000;	--    ADDI    R1, R0, 0
+001 : 9161001F;	--    SGEI	R11, R1, 31
+002 : B1600007;	--	BNEZ	R11, printdone
+003 : 05210019;	--    LW      R9, s1(R1)
+004 : C4000009;	--    PCH     R9
+005 : 10210001;	--    ADDI    R1, R1, 1
+006 : B4000001;	--    J       printstr
+007 : 1020000A;	--    ADDI    R1, R0, 10
+008 : C4000001;	--    PCH     R1
+009 : 1020000D;	--    ADDI    R1, R0, 13
+00A : C4000001;	--    PCH     R1
+00B : 10400000;	--    ADDI    R2, R0, 0
+00C : 10200000;	--    ADDI    R1, R0, 0
+00D : 9162000C;	--    SGEI	R11, R2, 12
+00E : B1600026;	--	BNEZ	R11, startExec
+00F : 91610010;	--    SGEI	R11, R1, 16
+010 : B1600015;	--	BNEZ	R11, printdone3
+011 : 05210038;	--    LW      R9, q1(R1)
+012 : C4000009;	--    PCH     R9
+013 : 10210001;	--    ADDI    R1, R1, 1
+014 : B400000F;	--    J       printstr3
+015 : CC000002;	--    PDU     R2
+016 : 10200000;	--    ADDI    R1, R0, 0
+017 : 05210048;	--    LW      R9, q2(R1)
+018 : C4000009;	--    PCH     R9
+019 : 1020000A;	--    ADDI    R1, R0, 10
+01A : C4000001;	--    PCH     R1
+01B : 1020000D;	--    ADDI    R1, R0, 13
+01C : C4000001;	--    PCH     R1
+01D : D5400000;	--    GDU     R10
+01E : 09420000;	--    SW      n(R2), R10
+01F : CC00000A;	--    PDU     R10
+020 : 1020000A;	--    ADDI    R1, R0, 10
+021 : C4000001;	--    PCH     R1
+022 : 1020000D;	--    ADDI    R1, R0, 13
+023 : C4000001;	--    PCH     R1
+024 : 10420001;	--    ADDI    R2, R2, 1
+025 : B400000C;	--    J       inputprint
+026 : D8000000;	--    TR
+027 : DC000000;	--    TGO
+028 : 11800000;	--    ADDI    R12, R0, 0
+029 : 12600000;	--    ADDI    R19, R0, 0
+02A : 10C00000;	--    ADDI    R6, R0, 0
+02B : 9166000A;	--    SGEI	R11, R6, 10
+02C : B160003C;	--	BNEZ	R11, finishRound1
+02D : 11860002;	--    ADDI    R12, R6, 2
+02E : 04260000;	--    LW      R1, n(R6)
+02F : 044C0000;	--    LW      R2, n(R12)
+030 : BC000069;	--    JAL     LCM
+031 : 0893000C;	--    SW      round1(R19), R4
+032 : 12730001;	--    ADDI    R19, R19, 1
+033 : 10C60001;	--    ADDI    R6, R6, 1
+034 : 11860002;	--    ADDI    R12, R6, 2
+035 : 04260000;	--    LW      R1, n(R6)
+036 : 044C0000;	--    LW      R2, n(R12)
+037 : BC000069;	--    JAL     LCM
+038 : 0893000C;	--    SW      round1(R19), R4
+039 : 12730001;	--    ADDI    R19, R19, 1
+03A : 10C60003;	--    ADDI    R6, R6, 3
+03B : B400002B;	--    J       round_1_loop
+03C : 11800000;	--    ADDI    R12, R0, 0
+03D : 12600000;	--    ADDI    R19, R0, 0
+03E : 10C00000;	--    ADDI    R6, R0, 0
+03F : 91660002;	--    SGEI	R11, R6, 2
+040 : B1600049;	--	BNEZ	R11, finishRound2
+041 : 11860002;	--    ADDI    R12, R6, 2
+042 : 0426000C;	--    LW      R1, round1(R6)
+043 : 044C000C;	--    LW      R2, round1(R12)
+044 : BC000069;	--    JAL     LCM
+045 : 08930012;	--    SW      round2(R19), R4
+046 : 12730001;	--    ADDI    R19, R19, 1
+047 : 10C60001;	--    ADDI    R6, R6, 1
+048 : B400003F;	--    J       round_2_loop
+049 : 12800004;	--    ADDI    R20, R0, 4
+04A : 0434000C;	--    LW      R1, round1(R20)
+04B : 12940001;	--    ADDI    R20, R20, 1
+04C : 0454000C;	--    LW      R2, round1(R20)
+04D : 08330012;	--    SW      round2(R19), R1
+04E : 12730001;	--    ADDI    R19, R19, 1
+04F : 08530012;	--    SW      round2(R19), R2
+050 : 11800000;	--    ADDI    R12, R0, 0
+051 : 12600000;	--    ADDI    R19, R0, 0
+052 : 10C00000;	--    ADDI    R6, R0, 0
+053 : 91660002;	--    SGEI	R11, R6, 2
+054 : B160005D;	--	BNEZ	R11, finishthird
+055 : 11860002;	--    ADDI    R12, R6, 2
+056 : 04260012;	--    LW      R1, round2(R6)
+057 : 044C0012;	--    LW      R2, round2(R12)
+058 : BC000069;	--    JAL     LCM
+059 : 08930016;	--    SW      round3(R19), R4
+05A : 12730001;	--    ADDI    R19, R19, 1
+05B : 10C60001;	--    ADDI    R6, R6, 1
+05C : B4000053;	--    J       third_round
+05D : 10C00000;	--    ADDI    R6, R0, 0
+05E : 11800001;	--    ADDI    R12, R0, 1
+05F : 04260016;	--    LW      R1, round3(R6)
+060 : 044C0016;	--    LW      R2, round3(R12)
+061 : BC000069;	--    JAL     LCM
+062 : E4000004;	--    PSU     R4
+063 : 1020000A;	--    ADDI    R1, R0, 10
+064 : C4000001;	--    PCH     R1
+065 : 1020000D;	--    ADDI    R1, R0, 13
+066 : C4000001;	--    PCH     R1
+067 : E0000000;	--    TSP
+068 : B4000000;	--	J		tippytop
+069 : 0D010000;	--    ADD     R8, R1, R0
+06A : 0D220000;	--    ADD     R9, R2, R0
+06B : 9CE84800;	--    SEQ     R7, R8, R9
+06C : B0E00073;	--    BNEZ    R7, doneFun
+06D : 8D484800;	--    SGE     R10, R8, R9
+06E : B1400071;	--    BNEZ    R10, lessThan
+06F : E9080800;	--    ADDX    R8, R8, R1
+070 : B400006B;	--    J       cmpVAl
+071 : ED291000;	--    ADDY    R9, R9, R2
+072 : B400006B;	--    J       cmpVAl
+073 : F0000000;	--    CLS
+074 : 0C880000;	--    ADD     R4, R8, R0
+075 : B800001F;	--    JR      R31
+
+END;

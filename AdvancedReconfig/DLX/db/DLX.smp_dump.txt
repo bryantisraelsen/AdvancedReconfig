@@ -1,0 +1,8 @@
+
+State Machine - |DLX|uart_tx:tx_side|tx_state
+Name tx_state.ERR tx_state.SEND_BIT tx_state.STORE_DATA tx_state.READ_FIFO tx_state.IDLE 
+tx_state.IDLE 0 0 0 0 0 
+tx_state.READ_FIFO 0 0 0 1 1 
+tx_state.STORE_DATA 0 0 1 0 1 
+tx_state.SEND_BIT 0 1 0 0 1 
+tx_state.ERR 1 0 0 0 1 

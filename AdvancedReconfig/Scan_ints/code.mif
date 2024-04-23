@@ -1,0 +1,72 @@
+DEPTH = 1024;
+WIDTH = 32;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = HEX;
+CONTENT
+BEGIN
+
+000 : 10200000;	--    ADDI    R1, R0, 0
+001 : 91610025;	--    SGEI	R11, R1, 37
+002 : B1600007;	--	BNEZ	R11, printdone
+003 : 05210003;	--    LW      R9, s1(R1)
+004 : C4000009;	--    PCH     R9
+005 : 10210001;	--    ADDI    R1, R1, 1
+006 : B4000001;	--    J       printstr
+007 : 1020000A;	--    ADDI    R1, R0, 10
+008 : C4000001;	--    PCH     R1
+009 : 1020000D;	--    ADDI    R1, R0, 13
+00A : C4000001;	--    PCH     R1
+00B : 10200000;	--    ADDI    R1, R0, 0
+00C : 91610010;	--    SGEI	R11, R1, 16
+00D : B1600012;	--	BNEZ	R11, printdone3
+00E : 05210028;	--    LW      R9, q1(R1)
+00F : C4000009;	--    PCH     R9
+010 : 10210001;	--    ADDI    R1, R1, 1
+011 : B400000C;	--    J       printstr3
+012 : 1020000A;	--    ADDI    R1, R0, 10
+013 : C4000001;	--    PCH     R1
+014 : 1020000D;	--    ADDI    R1, R0, 13
+015 : C4000001;	--    PCH     R1
+016 : D5400000;	--    GDU     R10
+017 : CC00000A;	--    PDU     R10
+018 : 0C205000;	--    ADD     R1, R0, R10
+019 : 0F005000;	--    ADD     R24, R0, R10
+01A : 204A0001;	--    SUBI    R2, R10, 1
+01B : 214A0001;	--    SUBI    R10, R10, 1
+01C : 0C8A0000;	--    ADD     R4, R10, R0
+01D : 816A0001;	--	SLEI	R11, R10, 1
+01E : B160002F;	--	BNEZ	R11, done2
+01F : BC000025;	--    JAL     multiply
+020 : 08800001;	--    SW      result(R0), R4
+021 : 0C240000;	--    ADD     R1, R4, R0
+022 : 214A0001;	--	SUBI	R10, R10, 1
+023 : 0C4A0000;	--    ADD     R2, R10, R0
+024 : B400001D;	--	J		top
+025 : 10810000;	--    ADDI    R4, R1, 0
+026 : 10A10000;	--    ADDI    R5, R1, 0
+027 : 10C20000;	--    ADDI    R6, R2, 0
+028 : 81660001;	--    SLEI	R11, R6, 1
+029 : B160002D;	--	BNEZ	R11, exit0
+02A : 0C842800;	--    ADD     R4, R4, R5
+02B : 20C60001;	--    SUBI    R6, R6, 1
+02C : B4000028;	--    J       top1
+02D : B800001F;	--    JR      R31
+02E : 08600001;	--	SW		result(R0), R3
+02F : 04040001;	--    LW      n(R0), R4
+030 : CC000018;	--    PDU     R24
+031 : 10200000;	--    ADDI    R1, R0, 0
+032 : 91610004;	--    SGEI	R11, R1, 4
+033 : B1600038;	--	BNEZ	R11, printdone1
+034 : 05210038;	--    LW      R9, a1(R1)
+035 : C4000009;	--    PCH     R9
+036 : 10210001;	--    ADDI    R1, R1, 1
+037 : B4000032;	--    J       str1
+038 : CC000004;	--    PDU     R4
+039 : 1020000A;	--    ADDI    R1, R0, 10
+03A : C4000001;	--    PCH     R1
+03B : 1020000D;	--    ADDI    R1, R0, 13
+03C : C4000001;	--    PCH     R1
+03D : B4000000;	--    J       tippytop
+03E : B400003E;	--	J		done
+
+END;

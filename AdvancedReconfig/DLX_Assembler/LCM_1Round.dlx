@@ -1,0 +1,118 @@
+;This is a comment
+;Comments always consume entire lines
+	
+	.data
+	
+n		12	0 0 0 0 0 0 0 0 0 0 0 0
+round1  6   0 0 0 0 0 0
+result	1	0
+
+    .const
+s1  31  "Welcome to the DLX LCM program!"
+q1  16  "Enter the input "
+q2  1   ":"
+
+	.text
+    ;print character
+tippytop
+    ADDI    R1, R0, 0
+printstr
+    SGEI	R11, R1, 31
+	BNEZ	R11, printdone
+    LW      R9, s1(R1)
+    PCH     R9
+    ADDI    R1, R1, 1
+    J       printstr
+printdone
+    ADDI    R1, R0, 10
+    PCH     R1
+    ADDI    R1, R0, 13
+    PCH     R1
+    ADDI    R2, R0, 0
+inputprint
+    ADDI    R1, R0, 0
+    SGEI	R11, R2, 12
+	BNEZ	R11, startExec
+printstr3
+    SGEI	R11, R1, 16
+	BNEZ	R11, printdone3
+    LW      R9, q1(R1)
+    PCH     R9
+    ADDI    R1, R1, 1
+    J       printstr3
+printdone3
+    PDU     R2
+    ADDI    R1, R0, 0
+    LW      R9, q2(R1)
+    PCH     R9
+    ADDI    R1, R0, 10
+    PCH     R1
+    ADDI    R1, R0, 13
+    PCH     R1
+    GDU     R10
+    SW      n(R2), R10
+    PDU     R10
+    ADDI    R1, R0, 10
+    PCH     R1
+    ADDI    R1, R0, 13
+    PCH     R1
+    ADDI    R2, R2, 1
+    J       inputprint
+startExec
+    TR
+    TGO
+    ADDI    R12, R0, 0
+    ADDI    R19, R0, 0
+    ADDI    R6, R0, 1
+round_1_loop
+    SGEI	R11, R6, 12
+	BNEZ	R11, finishRound1
+    SUBI    R12, R6, 1
+    LW      R1, n(R12)
+    LW      R2, n(R6)
+    JAL     LCM
+    SW      round1(R19), R4
+    ADDI    R19, R19, 1
+    ADDI    R6, R6, 2
+    J       round_1_loop
+finishRound1
+    ADDI    R6, R0, 1
+last_round
+    SGEI	R11, R6, 6
+	BNEZ	R11, finishlast
+    SUBI    R5, R6, 1
+    LW      R1, round1(R5)
+    LW      R2, round1(R6)
+    JAL     LCM
+    SW      round1(R6), R4
+    ADDI    R6, R6, 1
+    J       last_round
+finishlast
+    PSU     R4
+    ADDI    R1, R0, 10
+    PCH     R1
+    ADDI    R1, R0, 13
+    PCH     R1
+    TSP
+done
+	J		tippytop
+
+
+LCM
+    ADD     R8, R1, R0
+    ADD     R9, R2, R0
+cmpVAl
+    SEQ     R7, R8, R9
+    BNEZ    R7, doneFun
+    SGE     R10, R8, R9
+    BNEZ    R10, lessThan
+    ADDX    R8, R8, R1
+    J       cmpVAl
+lessThan
+    ADDY    R9, R9, R2
+    J       cmpVAl
+doneFun
+    CLS
+    ADD     R4, R8, R0
+    JR      R31
+	

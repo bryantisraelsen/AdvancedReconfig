@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sat Apr 20 14:16:42 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : DLX_test
+Top-level Entity Name : DLX_test
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 5,491 / 49,760 ( 11 % )
+    Total combinational functions : 5,136 / 49,760 ( 10 % )
+    Dedicated logic registers : 2,617 / 49,760 ( 5 % )
+Total registers : 2617
+Total pins : 55 / 360 ( 15 % )
+Total virtual pins : 0
+Total memory bits : 133,806 / 1,677,312 ( 8 % )
+Embedded Multiplier 9-bit elements : 4 / 288 ( 1 % )
+Total PLLs : 1 / 4 ( 25 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

@@ -1,0 +1,110 @@
+;This is a comment
+;Comments always consume entire lines
+	
+	.data
+	
+n		1	10
+result	1	0
+testing 1   -545
+
+    .const
+s1  37  "Welcome to the DLX factorial program!"
+q1  16  "Enter the input:" 
+a1  4   "! = "
+
+	.text
+    ;print character
+tippytop
+    ADDI    R1, R0, 0
+printstr
+    SGEI	R11, R1, 37
+	BNEZ	R11, printdone
+    LW      R9, s1(R1)
+    PCH     R9
+    ADDI    R1, R1, 1
+    J       printstr
+printdone
+    ADDI    R1, R0, 10
+    PCH     R1
+    ADDI    R1, R0, 13
+    PCH     R1
+    ADDI    R1, R0, 0
+printstr3
+    SGEI	R11, R1, 16
+	BNEZ	R11, printdone3
+    LW      R9, q1(R1)
+    PCH     R9
+    ADDI    R1, R1, 1
+    J       printstr3
+printdone3
+    ADDI    R1, R0, 10
+    PCH     R1
+    ADDI    R1, R0, 13
+    PCH     R1
+    GDU     R10
+    TR
+    TGO
+    ADD     R1, R0, R10
+    ADD     R24, R0, R10
+    SUBI    R2, R10, 1
+    SUBI    R10, R10, 1
+    ADD     R4, R10, R0
+    ;loop here until R10 (starting value) is 1
+top
+	SLEI	R11, R10, 1
+	BNEZ	R11, done2
+    ;multiply R1 with R2 (assuming R1, R2 are not changed with function call (input parameters), R4 is return value)
+    JAL     multiply
+    ;store return value in result
+    SW      result(R0), R4
+    ;store current return value in R1 for next multiplication
+    ADD     R1, R4, R0
+    ;decrement R10 and store it in R2 (so ready for next multiply)
+	SUBI	R10, R10, 1
+    ADD     R2, R10, R0
+	J		top
+
+    ;load R1 into R4 and R5 and load R2 into R6 (R5 won't change and R4 is return value)
+multiply
+    ADDI    R4, R1, 0
+    ADDI    R5, R1, 0
+    ADDI    R6, R2, 0
+    SCP
+
+    ;loop here until R6 is 1
+top1
+    SLEI	R11, R6, 1
+	BNEZ	R11, exit0
+    ;add R4 to R5 and store in R4
+    ADDS    R4, R4, R5
+    SUBI    R6, R6, 1
+    J       top1
+exit0
+    JR      R31
+	
+exit
+	SW		result(R0), R3
+
+done2
+    LW      n(R0), R4
+    PDU     R24
+    ADDI    R1, R0, 0
+str1
+    SGEI	R11, R1, 4
+	BNEZ	R11, printdone1
+    LW      R9, a1(R1)
+    PCH     R9
+    ADDI    R1, R1, 1
+    J       str1
+printdone1
+    PSU     R4
+    ADDI    R1, R0, 10
+    PCH     R1
+    ADDI    R1, R0, 13
+    PCH     R1
+    TSP
+    J       tippytop
+
+done
+	J		done
+	

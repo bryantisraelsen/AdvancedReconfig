@@ -1,0 +1,148 @@
+;This is a comment
+;Comments always consume entire lines
+	
+	.data
+	
+n		1	5
+result	1	0
+
+	.text
+    ;load starting value into R10 and R1, put starting value in R2 
+	LW		R10, n(R0)
+    LW		R12, n(R0)
+    NOP
+    NOP
+    NOP
+    ADD     R1, R0, R10
+    ADD     R13, R12, R10
+    ADDU    R13, R12, R10
+    SUB     R14, R12, R10
+    SUBU    R14, R12, R10
+    ADDI    R15, R10, 8
+    ADDUI   R15, R10, 8
+    SUBI    R16, R10, 8
+    SUBUI   R16, R10, 8
+    AND     R3, R12, R10
+    ANDI    R3, R10, 44
+    OR      R2, R12, R10
+    ORI     R2, R12, 3
+    XOR     R2, R10, R12
+    XORI    R2, R10, 5
+    SLL     R2, R10, R12
+    SLLI    R2, R10, 5
+    SLLI    R2, R10, 0
+    SRL     R2, R10, R12
+    SRLI    R2, R10, 2
+    SRLI    R2, R10, 5
+    SRLI    R2, R10, 0
+    SRA     R2, R10, R12
+    SRAI    R2, R10, 2
+    SRA     R2, R11, R10
+    SRAI    R2, R11, 4
+    SRAI    R2, R11, 2
+    SRL     R2, R11, R12
+    SRLI    R2, R11, 2
+    SLT     R2, R10, R12
+    SLTI    R2, R10, 7
+    SLT     R2, R10, R11
+    SLTU    R2, R10, R11
+    SLTUI   R2, R10, 8
+    SGT     R2, R10, R12
+    SGTI    R2, R10, 2
+    SGTU    R2, R10, R11
+    SGT     R2, R10, R11
+    SGTUI   R2, R10, 1
+    SLE     R2, R10, R12
+    SLEI    R2, R10, 7
+    SLE     R2, R10, R11
+    SLEU    R2, R10, R11
+    SLEUI   R2, R10, 8
+    SGE     R2, R10, R12
+    SGEI    R2, R10, 2
+    SGEU    R2, R10, R11
+    SGE     R2, R10, R11
+    SGEUI   R2, R10, 1
+    SEQ     R2, R10, R12
+    SEQI    R2, R10, 6
+    SNE     R2, R10, R12
+    SNEI    R2, R10, 9
+    BEQZ    R10, top
+    BNEZ    R0, top
+    BEQZ    R0, top
+    NOP
+    NOP
+    NOP
+
+    SUBI    R2, R10, 1
+
+
+    ;loop here until R10 (starting value) is 1
+top
+    BNEZ    R10, next
+    NOP
+    NOP
+    NOP
+    JR      R10
+    JAL     top
+next
+    J       next1
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+next1
+    JAL     next2
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+next2
+    JR      R10
+    JALR    R10
+	SLEI	R11, R10, 1
+    NOP
+    NOP
+    NOP
+	BNEZ	R11, done
+    ;multiply R1 with R2 (assuming R1, R2 are not changed with function call (input parameters), R4 is return value)
+    JAL     multiply
+    ;store return value in result
+    SW      result(R0), R4
+    NOP
+    NOP
+    NOP
+    ;store current return value in R1 for next multiplication
+    ADD     R1, R4, R0
+    ;decrement R10 and store it in R2 (so ready for next multiply)
+	SUBI	R10, R10, 1
+    NOP
+    NOP
+    NOP
+    ADD     R2, R10, R0
+	J		top
+
+    ;load R1 into R4 and R5 and load R2 into R6 (R5 won't change and R4 is return value)
+multiply
+    ADDI    R4, R1, 0
+    ADDI    R5, R1, 0
+    ADDI    R6, R2, 0
+
+    ;loop here until R6 is 1
+top1
+    SLEI	R11, R6, 1
+	BNEZ	R11, exit0
+    ;add R4 to R5 and store in R4
+    ADD     R4, R4, R5
+    SUBI    R6, R6, 1
+    J       top1
+exit0
+    JR      R31
+	
+exit
+	SW		result(R0), R3
+	
+done
+	J		done
+	

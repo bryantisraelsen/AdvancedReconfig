@@ -1,0 +1,686 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test
+Edata_mem
+Z1 w1710350450
+Z2 DPx9 altera_mf 20 altera_mf_components 0 22 gV:l9C^?PSb6]b5V?_jR@3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/data_mem.vhd
+Z6 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/data_mem.vhd
+l0
+L42
+VO]eoIl1b2=4PbGOngCjW11
+!s100 N?KT2TY<cl>L;4KUS]bgE3
+Z7 OV;C;10.5b;63
+33
+Z8 !s110 1710634713
+!i10b 1
+Z9 !s108 1710634713.000000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/data_mem.vhd|
+Z11 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/data_mem.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 NoCoverage 1 CvgOpt 0
+Asyn
+R2
+R3
+R4
+DEx4 work 8 data_mem 0 22 O]eoIl1b2=4PbGOngCjW11
+l58
+L54
+V_83^;ChFPe0UX_=h8EdaP1
+!s100 6?X2_=3>WkoIc[ef@N0bj1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edecode_stage
+Z14 w1710527541
+Z15 DPx4 work 7 dlx_pkg 0 22 W`ZP:?KT;hmCeOoiOXWzS0
+Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z17 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z18 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R3
+R4
+R0
+Z19 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/decode_stage.vhd
+Z20 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/decode_stage.vhd
+l0
+L9
+Vm@jL=3fFD389KgkjYmgnE2
+!s100 RF>j<Cao]^ddLlO>S5hG>3
+R7
+33
+Z21 !s110 1710623924
+!i10b 1
+Z22 !s108 1710623924.000000
+Z23 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/decode_stage.vhd|
+Z24 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/decode_stage.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R16
+R17
+R18
+R3
+R4
+DEx4 work 12 decode_stage 0 22 m@jL=3fFD389KgkjYmgnE2
+l62
+L35
+VWZF4@P0b1[`AUDX72EEP?2
+!s100 E6NNh4bKfG@?_1iF];Dc_3
+R7
+33
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R12
+R13
+Edivider
+Z25 w1710545346
+R3
+R4
+R0
+Z26 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/divider.vhd
+Z27 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/divider.vhd
+l0
+L42
+Via>T2iU0oGoGBz@39=F:83
+!s100 hnC2z]aNh?jaaDZYJHaSh1
+R7
+33
+Z28 !s110 1710623925
+!i10b 1
+Z29 !s108 1710623925.000000
+Z30 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/divider.vhd|
+Z31 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/divider.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 7 divider 0 22 ia>T2iU0oGoGBz@39=F:83
+l80
+L54
+V_0:BYf3G:8]fng:P4kFe91
+!s100 bG:680e0Bd]6d4QzVAB1[2
+R7
+33
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R12
+R13
+Pdlx_pkg
+R3
+R4
+w1710348002
+R0
+8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/dlx_pkg.vhd
+FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/dlx_pkg.vhd
+l0
+L4
+VW`ZP:?KT;hmCeOoiOXWzS0
+!s100 GoL<PJA9CTJBAmU1zibDL2
+R7
+33
+R28
+!i10b 1
+R29
+!s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/dlx_pkg.vhd|
+!s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/dlx_pkg.vhd|
+!i113 1
+R12
+R13
+Edlx_proc_tb
+Z32 w1710623910
+R16
+R17
+R18
+R3
+R4
+R0
+Z33 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/dlx_tb.vhd
+Z34 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/dlx_tb.vhd
+l0
+L7
+Vk9CdDCcg]lCz<R5OeB^S50
+!s100 ;9[O7iOf0`JU;JWTG`>Hm2
+R7
+33
+R28
+!i10b 1
+R29
+Z35 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/dlx_tb.vhd|
+Z36 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/dlx_tb.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R16
+R17
+R18
+R3
+R4
+DEx4 work 11 dlx_proc_tb 0 22 k9CdDCcg]lCz<R5OeB^S50
+l42
+L10
+V25IXDEOEDf?KAEeRcaRMC1
+!s100 PaJP_ASg0YXff>mzigLj71
+R7
+33
+R28
+!i10b 1
+R29
+R35
+R36
+!i113 1
+R12
+R13
+vDLX_test
+!s110 1710623485
+!i10b 1
+!s100 znj6111hAbYg>SeA7g<Q<1
+IDOjZKE^g]81Yde<3[BRmm0
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1710544366
+8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/DLX_test.v
+FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/DLX_test.v
+L0 6
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1710623485.000000
+!s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/DLX_test.v|
+!s90 -##implicit##push_minusfile_path##|C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/DLX_test.v|
+!i113 1
+R12
+tCvgOpt 0
+n@d@l@x_test
+Edlx_test
+Z37 w1710626444
+R16
+R3
+R4
+R0
+Z38 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/DLX_test.vhd
+Z39 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/DLX_test.vhd
+l0
+L5
+V7<97aWVPI@Odn2f7GmJeW1
+!s100 >ERV1DjICj^kcT2WYeji@3
+R7
+33
+Z40 !s110 1710626594
+!i10b 1
+Z41 !s108 1710626594.000000
+Z42 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/DLX_test.vhd|
+Z43 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/DLX_test.vhd|
+!i113 1
+R12
+R13
+Artl
+R16
+R3
+R4
+DEx4 work 8 dlx_test 0 22 7<97aWVPI@Odn2f7GmJeW1
+l283
+L22
+V<NAA@7XjQEb=dgFeCXN^Y1
+!s100 G`SMWW7n:cSd8V@Ilb;>o2
+R7
+33
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 1
+R12
+R13
+Eexecute_stage
+Z44 w1710526294
+R15
+R16
+R3
+R4
+R0
+Z45 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/execute_stage.vhd
+Z46 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/execute_stage.vhd
+l0
+L8
+V<9NHeSz]BnQi<LJV:d^6P3
+!s100 enXSd?_RSdM]W9BLSHA2e3
+R7
+33
+R28
+!i10b 1
+R29
+Z47 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/execute_stage.vhd|
+Z48 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/execute_stage.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R16
+R3
+R4
+DEx4 work 13 execute_stage 0 22 <9NHeSz]BnQi<LJV:d^6P3
+l64
+L41
+Vi5WR;NC9U]^LLNY>5C8@Y0
+!s100 BL[g@fCCn=R8Y?4=>ETAg1
+R7
+33
+R28
+!i10b 1
+R29
+R47
+R48
+!i113 1
+R12
+R13
+Efetch_stage
+Z49 w1710647434
+R15
+R16
+R17
+R18
+R3
+R4
+R0
+Z50 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/Fetch_stage.vhd
+Z51 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/Fetch_stage.vhd
+l0
+L9
+V;VZ30zV>k5QiI7k4heB=U3
+!s100 Y55O1hkLP1?<`[gEGUKNN1
+R7
+33
+Z52 !s110 1710647529
+!i10b 1
+Z53 !s108 1710647529.000000
+Z54 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/Fetch_stage.vhd|
+Z55 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/Fetch_stage.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R16
+R17
+R18
+R3
+R4
+Z56 DEx4 work 11 fetch_stage 0 22 ;VZ30zV>k5QiI7k4heB=U3
+l56
+L23
+V<1<SG3BWS?Tz;0R3KgBA>2
+!s100 AHj7RFBY6KDkcbfV1j4=Q2
+R7
+33
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 1
+R12
+R13
+Einstructions_rom
+Z57 w1710179193
+R2
+R3
+R4
+R0
+Z58 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/instructions_ROM.vhd
+Z59 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/instructions_ROM.vhd
+l0
+L42
+V9LEWlCHibY4zOb4h`0U=M3
+!s100 80XY;OPS1U2W`f7ezVLXN1
+R7
+33
+Z60 !s110 1710634723
+!i10b 1
+Z61 !s108 1710634723.000000
+Z62 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/instructions_ROM.vhd|
+Z63 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/instructions_ROM.vhd|
+!i113 1
+R12
+R13
+Asyn
+R2
+R3
+R4
+DEx4 work 16 instructions_rom 0 22 9LEWlCHibY4zOb4h`0U=M3
+l56
+L52
+V8U^KG8_9IOe:nSohjczIC2
+!s100 GD0Th`;ZcN`YA>olYMQ_P0
+R7
+33
+R60
+!i10b 1
+R61
+R62
+R63
+!i113 1
+R12
+R13
+Ememory_stage
+Z64 w1710352343
+R15
+R16
+R3
+R4
+R0
+Z65 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/memory_stage.vhd
+Z66 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/memory_stage.vhd
+l0
+L8
+VeK7HH;G88dz9Ch5hE5`NK1
+!s100 VKl3Lce42XSJLbeb>6Ug22
+R7
+33
+R28
+!i10b 1
+R29
+Z67 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/memory_stage.vhd|
+Z68 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/memory_stage.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R16
+R3
+R4
+DEx4 work 12 memory_stage 0 22 eK7HH;G88dz9Ch5hE5`NK1
+l39
+L23
+VmMf[L4eCKDOn1E?=kNY?D2
+!s100 l==:N[hCAHDeV7QjVd?e91
+R7
+33
+R28
+!i10b 1
+R29
+R67
+R68
+!i113 1
+R12
+R13
+Eregister_ram
+Z69 w1709348900
+R3
+R4
+R0
+Z70 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/register_RAM.vhd
+Z71 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/register_RAM.vhd
+l0
+L4
+VnYYhCY;ZNnHW4TReaJR_O1
+!s100 ;B4<J>lA2EW5cMKVZFob_0
+R7
+33
+Z72 !s110 1710623926
+!i10b 1
+R29
+Z73 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/register_RAM.vhd|
+Z74 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/register_RAM.vhd|
+!i113 1
+R12
+R13
+Artl
+R3
+R4
+DEx4 work 12 register_ram 0 22 nYYhCY;ZNnHW4TReaJR_O1
+l31
+L19
+VT@Y?a6:l50=hc0<;B@o_i1
+!s100 al:5oIG2J8daH<2HJG;Nk3
+R7
+33
+R72
+!i10b 1
+R29
+R73
+R74
+!i113 1
+R12
+R13
+Estack
+Z75 w1710453919
+R16
+R3
+R4
+R0
+Z76 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/stack.vhd
+Z77 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/stack.vhd
+l0
+L5
+VKFJo@A@b8iE<41Ke2N[a70
+!s100 ^>fkFW5Ln2Q0K[LP]BEVW1
+R7
+33
+R72
+!i10b 1
+Z78 !s108 1710623926.000000
+Z79 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/stack.vhd|
+Z80 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/stack.vhd|
+!i113 1
+R12
+R13
+Artl
+R16
+R3
+R4
+DEx4 work 5 stack 0 22 KFJo@A@b8iE<41Ke2N[a70
+l26
+L20
+VMG8W15G]iklBVWJk0WPeI3
+!s100 ^6<FNF:hbk5`>@8ZzgX:[2
+R7
+33
+R72
+!i10b 1
+R78
+R79
+R80
+!i113 1
+R12
+R13
+Etx_fifo
+Z81 w1710624109
+R3
+R4
+R0
+Z82 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/tx_fifo.vhd
+Z83 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/tx_fifo.vhd
+l0
+L42
+V?A=IFlEjC]No;>Me=Y2X?3
+!s100 ZPl1L9e6RB?L7Bj`Zglf21
+R7
+33
+Z84 !s110 1710624117
+!i10b 1
+Z85 !s108 1710624117.000000
+Z86 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/tx_fifo.vhd|
+Z87 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/tx_fifo.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 7 tx_fifo 0 22 ?A=IFlEjC]No;>Me=Y2X?3
+l98
+L59
+V_BloZolTPTm7ndB@iH39V3
+!s100 1T=Fh5>I<^ZNO_PS]47S^3
+R7
+33
+R84
+!i10b 1
+R85
+R86
+R87
+!i113 1
+R12
+R13
+Euart_pll
+Z88 w1705187473
+R3
+R4
+R0
+Z89 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/uart_pll.vhd
+Z90 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/uart_pll.vhd
+l0
+L42
+VR2E27`T@BV9`Ug0Ol<FM^0
+!s100 RQ^1aUX`_2Bk;Q[ISW`Z90
+R7
+33
+R72
+!i10b 1
+R78
+Z91 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/uart_pll.vhd|
+Z92 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/uart_pll.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 8 uart_pll 0 22 R2E27`T@BV9`Ug0Ol<FM^0
+l137
+L54
+VVF3g6J;:h5PFNBM@JRU7@3
+!s100 hc53WUoJ7NW4`ogA0PAUi1
+R7
+33
+R72
+!i10b 1
+R78
+R91
+R92
+!i113 1
+R12
+R13
+Euart_tx
+Z93 w1705215073
+R16
+R17
+R18
+R3
+R4
+R0
+Z94 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/uart_tx.vhd
+Z95 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/uart_tx.vhd
+l0
+L7
+VAh]@36d11CffAVXl?7fnV2
+!s100 6mQFE=oI_;N03L_aE>Ye33
+R7
+33
+R72
+!i10b 1
+R78
+Z96 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/uart_tx.vhd|
+Z97 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/uart_tx.vhd|
+!i113 1
+R12
+R13
+Artl
+R16
+R17
+R18
+R3
+R4
+DEx4 work 7 uart_tx 0 22 Ah]@36d11CffAVXl?7fnV2
+l25
+L18
+VCCkO^PmNNRlRDmTI]17[;1
+!s100 lA1HF4L3D>5=?L[o?ITXO0
+R7
+33
+R72
+!i10b 1
+R78
+R96
+R97
+!i113 1
+R12
+R13
+Ewrite_back_stage
+Z98 w1708478770
+R15
+R16
+R3
+R4
+R0
+Z99 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/write_back_stage.vhd
+Z100 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/write_back_stage.vhd
+l0
+L8
+VQ15_O@nbjkWoidPEh3TWK0
+!s100 e_LLO7@^1;IBzP3E9=B>R1
+R7
+33
+R72
+!i10b 1
+R78
+Z101 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/write_back_stage.vhd|
+Z102 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_test/write_back_stage.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R16
+R3
+R4
+DEx4 work 16 write_back_stage 0 22 Q15_O@nbjkWoidPEh3TWK0
+l27
+L23
+V1<O>5:FPB=9C_TgV[XmJ11
+!s100 IokD@_eK5QKPKQ;L^ZX;41
+R7
+33
+R72
+!i10b 1
+R78
+R101
+R102
+!i113 1
+R12
+R13

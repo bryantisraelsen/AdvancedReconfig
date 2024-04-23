@@ -1,0 +1,865 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch
+Eclk_cross_fifo
+Z1 w1713064620
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/clk_cross_fifo.vhd
+Z5 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/clk_cross_fifo.vhd
+l0
+L42
+VO@Hnz7KLV>@6k@ChXF>_32
+!s100 o:a^C:7FV:m27O`H[<M^Z1
+Z6 OV;C;10.5b;63
+33
+Z7 !s110 1713550734
+!i10b 1
+Z8 !s108 1713550734.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/clk_cross_fifo.vhd|
+Z10 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/clk_cross_fifo.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 NoCoverage 1 CvgOpt 0
+Asyn
+R2
+R3
+DEx4 work 14 clk_cross_fifo 0 22 O@Hnz7KLV>@6k@ChXF>_32
+l91
+L57
+VW8bnz0B>3f7i:9N9B]6_32
+!s100 W;`JnQJ]a50`<lZBF<9C?3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edata_mem
+Z13 w1710350450
+Z14 DPx9 altera_mf 20 altera_mf_components 0 22 gV:l9C^?PSb6]b5V?_jR@3
+R2
+R3
+R0
+Z15 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/data_mem.vhd
+Z16 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/data_mem.vhd
+l0
+L42
+VO]eoIl1b2=4PbGOngCjW11
+!s100 N?KT2TY<cl>L;4KUS]bgE3
+R6
+33
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/data_mem.vhd|
+Z18 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/data_mem.vhd|
+!i113 1
+R11
+R12
+Asyn
+R14
+R2
+R3
+DEx4 work 8 data_mem 0 22 O]eoIl1b2=4PbGOngCjW11
+l58
+L54
+V_83^;ChFPe0UX_=h8EdaP1
+!s100 6?X2_=3>WkoIc[ef@N0bj1
+R6
+33
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Edecode_stage
+Z19 w1713378498
+Z20 DPx4 work 7 dlx_pkg 0 22 oLe5SB<]hF9bj4_hGBf9d3
+Z21 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z22 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z23 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+R0
+Z24 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/decode_stage.vhd
+Z25 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/decode_stage.vhd
+l0
+L9
+Vm@jL=3fFD389KgkjYmgnE2
+!s100 RF>j<Cao]^ddLlO>S5hG>3
+R6
+33
+R7
+!i10b 1
+R8
+Z26 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/decode_stage.vhd|
+Z27 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/decode_stage.vhd|
+!i113 1
+R11
+R12
+Artl
+R20
+R21
+R22
+R23
+R2
+R3
+DEx4 work 12 decode_stage 0 22 m@jL=3fFD389KgkjYmgnE2
+l62
+L35
+V?HY?EZlnRl;@TH6BJe@cz1
+!s100 QDGj^ZZia=:[bW1XkMPCo3
+R6
+33
+R7
+!i10b 1
+R8
+R26
+R27
+!i113 1
+R11
+R12
+Edivider
+Z28 w1713375544
+R2
+R3
+R0
+Z29 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/divider.vhd
+Z30 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/divider.vhd
+l0
+L42
+V8Jd2iM9J=i4bCTDDE9d0d1
+!s100 R1U53jSB;HG;DHEf0O]3J1
+R6
+33
+R7
+!i10b 1
+R8
+Z31 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/divider.vhd|
+Z32 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/divider.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 7 divider 0 22 8Jd2iM9J=i4bCTDDE9d0d1
+l80
+L54
+V_6B9Vi7X=>4iIz]H9oZ>f3
+!s100 Zj[33[4J]e]zdb1Z>J`3_0
+R6
+33
+R7
+!i10b 1
+R8
+R31
+R32
+!i113 1
+R11
+R12
+Pdlx_pkg
+R2
+R3
+w1713547074
+R0
+8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/dlx_pkg.vhd
+FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/dlx_pkg.vhd
+l0
+L4
+VoLe5SB<]hF9bj4_hGBf9d3
+!s100 :^:2@Y=QdiL3n73Of[K^E1
+R6
+33
+R7
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/dlx_pkg.vhd|
+!s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/dlx_pkg.vhd|
+!i113 1
+R11
+R12
+Edlx_proc_tb
+Z33 w1713634060
+R21
+R22
+R23
+R2
+R3
+R0
+Z34 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/dlx_tb.vhd
+Z35 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/dlx_tb.vhd
+l0
+L7
+Vk9CdDCcg]lCz<R5OeB^S50
+!s100 ;9[O7iOf0`JU;JWTG`>Hm2
+R6
+33
+Z36 !s110 1713634079
+!i10b 1
+Z37 !s108 1713634078.000000
+Z38 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/dlx_tb.vhd|
+Z39 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/dlx_tb.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R21
+R22
+R23
+R2
+R3
+Z40 DEx4 work 11 dlx_proc_tb 0 22 k9CdDCcg]lCz<R5OeB^S50
+l46
+L10
+Vk66j=ame6dEN7S;OUVNh[2
+!s100 5@mA`h4>^>ml7SG3R]VPZ0
+R6
+33
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R11
+R12
+Edlx_test
+Z41 w1713578857
+R21
+R2
+R3
+R0
+Z42 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/DLX_test.vhd
+Z43 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/DLX_test.vhd
+l0
+L5
+V7<97aWVPI@Odn2f7GmJeW1
+!s100 >ERV1DjICj^kcT2WYeji@3
+R6
+33
+Z44 !s110 1713578862
+!i10b 1
+Z45 !s108 1713578862.000000
+Z46 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/DLX_test.vhd|
+Z47 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/DLX_test.vhd|
+!i113 1
+R11
+R12
+Artl
+R21
+R2
+R3
+DEx4 work 8 dlx_test 0 22 7<97aWVPI@Odn2f7GmJeW1
+l410
+L22
+VRBg8CaUn_A?@PM04n3zkC0
+!s100 U8cfkYhBU0N@OOe1dJbT>1
+R6
+33
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 1
+R11
+R12
+Eexecute_stage
+Z48 w1713589268
+R20
+R21
+R2
+R3
+R0
+Z49 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/execute_stage.vhd
+Z50 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/execute_stage.vhd
+l0
+L8
+Vgz0DE?[>zC:nOI=>Agm^@1
+!s100 Ii0VNi2TO6ZdB2o:a]>9L1
+R6
+33
+Z51 !s110 1713632470
+!i10b 1
+Z52 !s108 1713632470.000000
+Z53 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/execute_stage.vhd|
+Z54 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/execute_stage.vhd|
+!i113 1
+R11
+R12
+Artl
+R20
+R21
+R2
+R3
+DEx4 work 13 execute_stage 0 22 gz0DE?[>zC:nOI=>Agm^@1
+l84
+L53
+VR^jZn9RMz^9Tze[V2`eg:1
+!s100 ibLDggYdni]EK]Jj7o7GB0
+R6
+33
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R11
+R12
+Efetch_stage
+Z55 w1710647434
+R20
+R21
+R22
+R23
+R2
+R3
+R0
+Z56 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/Fetch_stage.vhd
+Z57 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/Fetch_stage.vhd
+l0
+L9
+V;VZ30zV>k5QiI7k4heB=U3
+!s100 Y55O1hkLP1?<`[gEGUKNN1
+R6
+33
+Z58 !s110 1713550735
+!i10b 1
+Z59 !s108 1713550735.000000
+Z60 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/Fetch_stage.vhd|
+Z61 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/Fetch_stage.vhd|
+!i113 1
+R11
+R12
+Artl
+R20
+R21
+R22
+R23
+R2
+R3
+DEx4 work 11 fetch_stage 0 22 ;VZ30zV>k5QiI7k4heB=U3
+l56
+L23
+V<1<SG3BWS?Tz;0R3KgBA>2
+!s100 AHj7RFBY6KDkcbfV1j4=Q2
+R6
+33
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 1
+R11
+R12
+Einstructions_rom
+Z62 w1710179193
+R14
+R2
+R3
+R0
+Z63 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/instructions_ROM.vhd
+Z64 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/instructions_ROM.vhd
+l0
+L42
+V9LEWlCHibY4zOb4h`0U=M3
+!s100 80XY;OPS1U2W`f7ezVLXN1
+R6
+33
+Z65 !s110 1713559742
+!i10b 1
+Z66 !s108 1713559742.000000
+Z67 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/instructions_ROM.vhd|
+Z68 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/instructions_ROM.vhd|
+!i113 1
+R11
+R12
+Asyn
+R14
+R2
+R3
+DEx4 work 16 instructions_rom 0 22 9LEWlCHibY4zOb4h`0U=M3
+l56
+L52
+V8U^KG8_9IOe:nSohjczIC2
+!s100 GD0Th`;ZcN`YA>olYMQ_P0
+R6
+33
+R65
+!i10b 1
+R66
+R67
+R68
+!i113 1
+R11
+R12
+Ememory_stage
+Z69 w1710352343
+R20
+R21
+R2
+R3
+R0
+Z70 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/memory_stage.vhd
+Z71 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/memory_stage.vhd
+l0
+L8
+VeK7HH;G88dz9Ch5hE5`NK1
+!s100 VKl3Lce42XSJLbeb>6Ug22
+R6
+33
+R58
+!i10b 1
+R59
+Z72 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/memory_stage.vhd|
+Z73 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/memory_stage.vhd|
+!i113 1
+R11
+R12
+Artl
+R20
+R21
+R2
+R3
+DEx4 work 12 memory_stage 0 22 eK7HH;G88dz9Ch5hE5`NK1
+l39
+L23
+VmMf[L4eCKDOn1E?=kNY?D2
+!s100 l==:N[hCAHDeV7QjVd?e91
+R6
+33
+R58
+!i10b 1
+R59
+R72
+R73
+!i113 1
+R11
+R12
+Emultiplier
+Z74 w1711253475
+R2
+R3
+R0
+Z75 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/multiplier.vhd
+Z76 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/multiplier.vhd
+l0
+L42
+VdVT^7WAfAJEMcX@lQT_mH1
+!s100 WzYGI8zVL2i^Rh<PO:8@11
+R6
+33
+R58
+!i10b 1
+R59
+Z77 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/multiplier.vhd|
+Z78 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/multiplier.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 10 multiplier 0 22 dVT^7WAfAJEMcX@lQT_mH1
+l78
+L52
+V>4`J<T=eXF=B;a]oCm<cg1
+!s100 6>`6SVlh]]G`4=98ddo0o3
+R6
+33
+R58
+!i10b 1
+R59
+R77
+R78
+!i113 1
+R11
+R12
+Ereceive_fifo
+Z79 w1711376315
+R2
+R3
+R0
+Z80 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/receive_fifo.vhd
+Z81 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/receive_fifo.vhd
+l0
+L42
+VL`A5@Zh^XSLKj0[e4UHZ12
+!s100 zkNCn1d@1BQVkXW9?KA710
+R6
+33
+R58
+!i10b 1
+R59
+Z82 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/receive_fifo.vhd|
+Z83 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/receive_fifo.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 12 receive_fifo 0 22 L`A5@Zh^XSLKj0[e4UHZ12
+l93
+L58
+V;L:TV^MVh[>4C=[f4]K[g1
+!s100 dK]>fE]j7XbmE>23>L4043
+R6
+33
+R58
+!i10b 1
+R59
+R82
+R83
+!i113 1
+R11
+R12
+Eregister_ram
+Z84 w1709348900
+R2
+R3
+R0
+Z85 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/register_RAM.vhd
+Z86 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/register_RAM.vhd
+l0
+L4
+VnYYhCY;ZNnHW4TReaJR_O1
+!s100 ;B4<J>lA2EW5cMKVZFob_0
+R6
+33
+R58
+!i10b 1
+R59
+Z87 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/register_RAM.vhd|
+Z88 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/register_RAM.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 12 register_ram 0 22 nYYhCY;ZNnHW4TReaJR_O1
+l31
+L19
+VT@Y?a6:l50=hc0<;B@o_i1
+!s100 al:5oIG2J8daH<2HJG;Nk3
+R6
+33
+R58
+!i10b 1
+R59
+R87
+R88
+!i113 1
+R11
+R12
+Erx_fifo
+Z89 w1705192303
+R2
+R3
+R0
+Z90 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/rx_fifo.vhd
+Z91 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/rx_fifo.vhd
+l0
+L42
+VWH=LVYDD;JhXHEMn:Q`8]3
+!s100 dP1bW7zRYAnB3F3df]CFL2
+R6
+33
+Z92 !s110 1713550736
+!i10b 1
+R59
+Z93 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/rx_fifo.vhd|
+Z94 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/rx_fifo.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 7 rx_fifo 0 22 WH=LVYDD;JhXHEMn:Q`8]3
+l98
+L59
+V3Rd24aW5;cHaP7UA01=H33
+!s100 NhAZ23:2YFQnaccaMoOi]0
+R6
+33
+R92
+!i10b 1
+R59
+R93
+R94
+!i113 1
+R11
+R12
+Estack
+Z95 w1713378882
+R21
+R2
+R3
+R0
+Z96 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/stack.vhd
+Z97 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/stack.vhd
+l0
+L5
+VKFJo@A@b8iE<41Ke2N[a70
+!s100 ^>fkFW5Ln2Q0K[LP]BEVW1
+R6
+33
+R92
+!i10b 1
+Z98 !s108 1713550736.000000
+Z99 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/stack.vhd|
+Z100 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/stack.vhd|
+!i113 1
+R11
+R12
+Artl
+R21
+R2
+R3
+DEx4 work 5 stack 0 22 KFJo@A@b8iE<41Ke2N[a70
+l26
+L20
+V:E[aVPf32_1d[f3H>YO3f2
+!s100 3:E=7kKVP4WoXC3bXB[8@3
+R6
+33
+R92
+!i10b 1
+R98
+R99
+R100
+!i113 1
+R11
+R12
+Etx_fifo
+Z101 w1711385393
+R2
+R3
+R0
+Z102 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/tx_fifo.vhd
+Z103 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/tx_fifo.vhd
+l0
+L42
+VoFe9:]Q?e6KAcU6ONjfj?1
+!s100 VMPIA@Uebcn9eGQk[M`F23
+R6
+33
+R92
+!i10b 1
+R98
+Z104 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/tx_fifo.vhd|
+Z105 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/tx_fifo.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 7 tx_fifo 0 22 oFe9:]Q?e6KAcU6ONjfj?1
+l98
+L59
+V@LH;ooZjNX9S<c1c6dihi2
+!s100 gUU>VW5cknc73cdB^8TK23
+R6
+33
+R92
+!i10b 1
+R98
+R104
+R105
+!i113 1
+R11
+R12
+Euart_pll
+Z106 w1710649734
+R2
+R3
+R0
+Z107 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/uart_pll.vhd
+Z108 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/uart_pll.vhd
+l0
+L42
+VR2E27`T@BV9`Ug0Ol<FM^0
+!s100 RQ^1aUX`_2Bk;Q[ISW`Z90
+R6
+33
+R92
+!i10b 1
+R98
+Z109 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/uart_pll.vhd|
+Z110 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/uart_pll.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 8 uart_pll 0 22 R2E27`T@BV9`Ug0Ol<FM^0
+l137
+L54
+VMDh8?ZPB?GMV>AMUmQDaL2
+!s100 Idjz>h>60e14bfSoXJZS?0
+R6
+33
+R92
+!i10b 1
+R98
+R109
+R110
+!i113 1
+R11
+R12
+Euart_rx
+Z111 w1705343291
+R21
+R22
+R23
+R2
+R3
+R0
+Z112 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/uart_rx.vhd
+Z113 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/uart_rx.vhd
+l0
+L7
+VLzIc`393QKe<4T1MX`Q2k3
+!s100 0CBSjQja;oXPDmV2eGJiZ3
+R6
+33
+R92
+!i10b 1
+R98
+Z114 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/uart_rx.vhd|
+Z115 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/uart_rx.vhd|
+!i113 1
+R11
+R12
+Artl
+R21
+R22
+R23
+R2
+R3
+DEx4 work 7 uart_rx 0 22 LzIc`393QKe<4T1MX`Q2k3
+l29
+L18
+Vj[1cT5fRKNYLDCCOiL57J0
+!s100 :Pe:CloJoQDL];8<cQf6g0
+R6
+33
+R92
+!i10b 1
+R98
+R114
+R115
+!i113 1
+R11
+R12
+Euart_tx
+Z116 w1705215073
+R21
+R22
+R23
+R2
+R3
+R0
+Z117 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/uart_tx.vhd
+Z118 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/uart_tx.vhd
+l0
+L7
+VAh]@36d11CffAVXl?7fnV2
+!s100 6mQFE=oI_;N03L_aE>Ye33
+R6
+33
+R92
+!i10b 1
+R98
+Z119 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/uart_tx.vhd|
+Z120 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/uart_tx.vhd|
+!i113 1
+R11
+R12
+Artl
+R21
+R22
+R23
+R2
+R3
+DEx4 work 7 uart_tx 0 22 Ah]@36d11CffAVXl?7fnV2
+l25
+L18
+VCCkO^PmNNRlRDmTI]17[;1
+!s100 lA1HF4L3D>5=?L[o?ITXO0
+R6
+33
+R92
+!i10b 1
+R98
+R119
+R120
+!i113 1
+R11
+R12
+Ewrite_back_stage
+Z121 w1713547367
+R20
+R21
+R2
+R3
+R0
+Z122 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/write_back_stage.vhd
+Z123 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/write_back_stage.vhd
+l0
+L8
+VQ15_O@nbjkWoidPEh3TWK0
+!s100 e_LLO7@^1;IBzP3E9=B>R1
+R6
+33
+R92
+!i10b 1
+R98
+Z124 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/write_back_stage.vhd|
+Z125 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/DLX_stopWatch/write_back_stage.vhd|
+!i113 1
+R11
+R12
+Artl
+R20
+R21
+R2
+R3
+DEx4 work 16 write_back_stage 0 22 Q15_O@nbjkWoidPEh3TWK0
+l27
+L23
+VF@CNX=7hWXQOM6>BR=aP62
+!s100 hYBFPQz35Kh84L;3f2<Rf3
+R6
+33
+R92
+!i10b 1
+R98
+R124
+R125
+!i113 1
+R11
+R12

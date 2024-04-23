@@ -1,0 +1,4 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,multiplier:multy|lpm_mult:lpm_mult_component|mult_16r:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,multiplier:multy|lpm_mult:lpm_mult_component|mult_16r:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,multiplier:multy|lpm_mult:lpm_mult_component|mult_16r:auto_generated|mac_mult3,

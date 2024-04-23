@@ -1,0 +1,17 @@
+
+State Machine - |dlx_proc|dec_state
+Name dec_state.PRINT dec_state.U_DIV dec_state.S_NEG_SIG dec_state.S_DIV dec_state.S_SIGN_CONV dec_state.IDLE 
+dec_state.IDLE 0 0 0 0 0 0 
+dec_state.S_SIGN_CONV 0 0 0 0 1 1 
+dec_state.S_DIV 0 0 0 1 0 1 
+dec_state.S_NEG_SIG 0 0 1 0 0 1 
+dec_state.U_DIV 0 1 0 0 0 1 
+dec_state.PRINT 1 0 0 0 0 1 
+
+State Machine - |dlx_proc|uart_tx:tx_side|tx_state
+Name tx_state.ERR tx_state.SEND_BIT tx_state.STORE_DATA tx_state.READ_FIFO tx_state.IDLE 
+tx_state.IDLE 0 0 0 0 0 
+tx_state.READ_FIFO 0 0 0 1 1 
+tx_state.STORE_DATA 0 0 1 0 1 
+tx_state.SEND_BIT 0 1 0 0 1 
+tx_state.ERR 1 0 0 0 1 

@@ -1,0 +1,22 @@
+
+State Machine - |UART_1|top_state
+Name top_state.ADJUST_CASE top_state.WAIT_ROOM top_state.SEND top_state.READ_FIFO top_state.IDLE 
+top_state.IDLE 0 0 0 0 0 
+top_state.READ_FIFO 0 0 0 1 1 
+top_state.SEND 0 0 1 0 1 
+top_state.WAIT_ROOM 0 1 0 0 1 
+top_state.ADJUST_CASE 1 0 0 0 1 
+
+State Machine - |UART_1|uart_tx:tx_side|tx_state
+Name tx_state.ERR tx_state.SEND_BIT tx_state.STORE_DATA tx_state.READ_FIFO tx_state.IDLE 
+tx_state.IDLE 0 0 0 0 0 
+tx_state.READ_FIFO 0 0 0 1 1 
+tx_state.STORE_DATA 0 0 1 0 1 
+tx_state.SEND_BIT 0 1 0 0 1 
+tx_state.ERR 1 0 0 0 1 
+
+State Machine - |UART_1|uart_rx:rx_side|rx_state
+Name rx_state.ERR rx_state.READ_BIT rx_state.IDLE 
+rx_state.IDLE 0 0 0 
+rx_state.READ_BIT 0 1 1 
+rx_state.ERR 1 0 1 

@@ -1,0 +1,461 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards
+Edata_mem
+Z1 w1709440614
+Z2 DPx9 altera_mf 20 altera_mf_components 0 22 gV:l9C^?PSb6]b5V?_jR@3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/data_mem.vhd
+Z6 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/data_mem.vhd
+l0
+L42
+VO]eoIl1b2=4PbGOngCjW11
+!s100 N?KT2TY<cl>L;4KUS]bgE3
+Z7 OV;C;10.5b;63
+33
+Z8 !s110 1710355821
+!i10b 1
+Z9 !s108 1710355821.000000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/data_mem.vhd|
+Z11 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/data_mem.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 NoCoverage 1 CvgOpt 0
+Asyn
+R2
+R3
+R4
+DEx4 work 8 data_mem 0 22 O]eoIl1b2=4PbGOngCjW11
+l58
+L54
+VFm`E<SR[eI69`93>42V`J1
+!s100 S^=^AK<PBTNXodi]DWAhi1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edecode_stage
+Z14 w1710356054
+Z15 DPx4 work 7 dlx_pkg 0 22 W`ZP:?KT;hmCeOoiOXWzS0
+Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z17 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z18 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R3
+R4
+R0
+Z19 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/decode_stage.vhd
+Z20 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/decode_stage.vhd
+l0
+L9
+V>f?UM7ddHE9RAYRG96B213
+!s100 dg4A^SY8CWfXFn:X8zLHl3
+R7
+33
+Z21 !s110 1710356088
+!i10b 1
+Z22 !s108 1710356088.000000
+Z23 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/decode_stage.vhd|
+Z24 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/decode_stage.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R16
+R17
+R18
+R3
+R4
+DEx4 work 12 decode_stage 0 22 >f?UM7ddHE9RAYRG96B213
+l55
+L32
+V>ZA4[6QBK@ImAYdVC;jNi0
+!s100 OVJh`23FblKbT^?lIl[H21
+R7
+33
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R12
+R13
+Edlx
+Z25 w1710355793
+R16
+R3
+R4
+R0
+Z26 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/dlx.vhd
+Z27 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/dlx.vhd
+l0
+L5
+VzDTPfngI^g=Vl`HR=S3N82
+!s100 C9iInMMf^AF]VnVLEn27f0
+R7
+33
+!s110 1710355796
+!i10b 1
+Z28 !s108 1710355796.000000
+Z29 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/dlx.vhd|
+Z30 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/dlx.vhd|
+!i113 1
+R12
+R13
+Artl
+R16
+R3
+R4
+DEx4 work 3 dlx 0 22 zDTPfngI^g=Vl`HR=S3N82
+l141
+L12
+VJ65FeeoF_Sh:12I46ZLeQ2
+!s100 ]_4NJeZQHc?4Y@QJZLdlW3
+R7
+33
+!s110 1710355797
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R12
+R13
+Pdlx_pkg
+R3
+R4
+w1710355053
+R0
+8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/dlx_pkg.vhd
+FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/dlx_pkg.vhd
+l0
+L4
+VW`ZP:?KT;hmCeOoiOXWzS0
+!s100 GoL<PJA9CTJBAmU1zibDL2
+R7
+33
+!s110 1710356065
+!i10b 1
+!s108 1710356064.000000
+!s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/dlx_pkg.vhd|
+!s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/dlx_pkg.vhd|
+!i113 1
+R12
+R13
+Edlx_tb
+Z31 w1709356818
+R16
+R17
+R18
+R3
+R4
+R0
+Z32 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/dlx_tb.vhd
+Z33 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/dlx_tb.vhd
+l0
+L7
+Vf2aB3Xc?B6zN?z;=oGDBo3
+!s100 fTPSLXFdMXjzV0YYmEd[P3
+R7
+33
+Z34 !s110 1710355850
+!i10b 1
+Z35 !s108 1710355850.000000
+Z36 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/dlx_tb.vhd|
+Z37 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/dlx_tb.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R16
+R17
+R18
+R3
+R4
+DEx4 work 6 dlx_tb 0 22 f2aB3Xc?B6zN?z;=oGDBo3
+l22
+L10
+VQ757lM5?z4MG[eiahWF0o3
+!s100 UH5oh2O5zf[Oz^JLB`_ak1
+R7
+33
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R12
+R13
+Eexecute_stage
+Z38 w1710354898
+R15
+R16
+R3
+R4
+R0
+Z39 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/execute_stage.vhd
+Z40 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/execute_stage.vhd
+l0
+L8
+VF;k7N9]e22nebPCU;Z8Gz3
+!s100 BNFSBUG5@lU;17GXjWIDb1
+R7
+33
+R34
+!i10b 1
+R35
+Z41 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/execute_stage.vhd|
+Z42 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/execute_stage.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R16
+R3
+R4
+DEx4 work 13 execute_stage 0 22 F;k7N9]e22nebPCU;Z8Gz3
+l59
+L36
+VULKD72z[KG286@o4LV5ni1
+!s100 UoSgK50RdB8cB6lWa?`Z`2
+R7
+33
+R34
+!i10b 1
+R35
+R41
+R42
+!i113 1
+R12
+R13
+Efetch_stage
+Z43 w1710356726
+R15
+R16
+R17
+R18
+R3
+R4
+R0
+Z44 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/Fetch_stage.vhd
+Z45 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/Fetch_stage.vhd
+l0
+L9
+V]VTSL8=EN[`@DnPMzbfT23
+!s100 B1Tb]i935QRbgA75@M0[51
+R7
+33
+Z46 !s110 1710356737
+!i10b 1
+Z47 !s108 1710356737.000000
+Z48 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/Fetch_stage.vhd|
+Z49 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/Fetch_stage.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R16
+R17
+R18
+R3
+R4
+Z50 DEx4 work 11 fetch_stage 0 22 ]VTSL8=EN[`@DnPMzbfT23
+l46
+L21
+V;A8K`@m22Rf;UAEC5ab_20
+!s100 ^CJcE85JBdXBZOVUISX5@1
+R7
+33
+R46
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R12
+R13
+Einstructions_rom
+Z51 w1709440547
+R2
+R3
+R4
+R0
+Z52 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/instructions_ROM.vhd
+Z53 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/instructions_ROM.vhd
+l0
+L42
+V9LEWlCHibY4zOb4h`0U=M3
+!s100 80XY;OPS1U2W`f7ezVLXN1
+R7
+33
+Z54 !s110 1710355851
+!i10b 1
+Z55 !s108 1710355851.000000
+Z56 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/instructions_ROM.vhd|
+Z57 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/instructions_ROM.vhd|
+!i113 1
+R12
+R13
+Asyn
+R2
+R3
+R4
+DEx4 work 16 instructions_rom 0 22 9LEWlCHibY4zOb4h`0U=M3
+l56
+L52
+VM>OjeW7IHhHb4lClbY;9P0
+!s100 VAZla`8R]5IjHaGUEmG_a0
+R7
+33
+R54
+!i10b 1
+R55
+R56
+R57
+!i113 1
+R12
+R13
+Ememory_stage
+Z58 w1709313057
+R15
+R16
+R3
+R4
+R0
+Z59 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/memory_stage.vhd
+Z60 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/memory_stage.vhd
+l0
+L8
+VeK7HH;G88dz9Ch5hE5`NK1
+!s100 VKl3Lce42XSJLbeb>6Ug22
+R7
+33
+R54
+!i10b 1
+R55
+Z61 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/memory_stage.vhd|
+Z62 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/memory_stage.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R16
+R3
+R4
+DEx4 work 12 memory_stage 0 22 eK7HH;G88dz9Ch5hE5`NK1
+l39
+L23
+VmMf[L4eCKDOn1E?=kNY?D2
+!s100 l==:N[hCAHDeV7QjVd?e91
+R7
+33
+R54
+!i10b 1
+R55
+R61
+R62
+!i113 1
+R12
+R13
+Eregister_ram
+Z63 w1709348900
+R3
+R4
+R0
+Z64 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/register_RAM.vhd
+Z65 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/register_RAM.vhd
+l0
+L4
+VnYYhCY;ZNnHW4TReaJR_O1
+!s100 ;B4<J>lA2EW5cMKVZFob_0
+R7
+33
+R54
+!i10b 1
+R55
+Z66 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/register_RAM.vhd|
+Z67 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/register_RAM.vhd|
+!i113 1
+R12
+R13
+Artl
+R3
+R4
+DEx4 work 12 register_ram 0 22 nYYhCY;ZNnHW4TReaJR_O1
+l31
+L19
+VT@Y?a6:l50=hc0<;B@o_i1
+!s100 al:5oIG2J8daH<2HJG;Nk3
+R7
+33
+R54
+!i10b 1
+R55
+R66
+R67
+!i113 1
+R12
+R13
+Ewrite_back_stage
+Z68 w1708478770
+R15
+R16
+R3
+R4
+R0
+Z69 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/write_back_stage.vhd
+Z70 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/write_back_stage.vhd
+l0
+L8
+VQ15_O@nbjkWoidPEh3TWK0
+!s100 e_LLO7@^1;IBzP3E9=B>R1
+R7
+33
+R54
+!i10b 1
+R55
+Z71 !s90 -reportprogress|30|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/write_back_stage.vhd|
+Z72 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Data_Hazards/write_back_stage.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R16
+R3
+R4
+DEx4 work 16 write_back_stage 0 22 Q15_O@nbjkWoidPEh3TWK0
+l27
+L23
+V1<O>5:FPB=9C_TgV[XmJ11
+!s100 IokD@_eK5QKPKQ;L^ZX;41
+R7
+33
+R54
+!i10b 1
+R55
+R71
+R72
+!i113 1
+R12
+R13

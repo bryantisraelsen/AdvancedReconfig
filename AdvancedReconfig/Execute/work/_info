@@ -1,0 +1,332 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute
+Edecode_stage
+Z1 w1707946786
+Z2 DPx4 work 7 dlx_pkg 0 22 jQQ:X`]LeR<eeRDDn6H;S2
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z8 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/decode_stage.vhd
+Z9 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/decode_stage.vhd
+l0
+L9
+V5bIQ>Z808KXAl8PIYEhnZ2
+!s100 bJ7RFMQOF_Azh8e69Oo810
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1707946802
+!i10b 1
+Z12 !s108 1707946802.000000
+Z13 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/decode_stage.vhd|
+Z14 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/decode_stage.vhd|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 12 decode_stage 0 22 5bIQ>Z808KXAl8PIYEhnZ2
+l51
+L29
+VbM<f:[S[QE3o4ciH>:8;H2
+!s100 TO1a8aCO:mT<n8RbVH=DR2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Edlx
+Z17 w1707869148
+R3
+R6
+R7
+R0
+Z18 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/dlx.vhd
+Z19 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/dlx.vhd
+l0
+L5
+VK26H=YhS4G9[BF<o3`LiG0
+!s100 Uk5Wz2B[=YfZU_2?gFBi^1
+R10
+32
+Z20 !s110 1707939214
+!i10b 1
+Z21 !s108 1707939214.000000
+Z22 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/dlx.vhd|
+Z23 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/dlx.vhd|
+!i113 1
+R15
+R16
+Artl
+R3
+R6
+R7
+DEx4 work 3 dlx 0 22 K26H=YhS4G9[BF<o3`LiG0
+l83
+L15
+VO^hRngKiDh:7lNTf>WLZz2
+!s100 >kkQD=5VE[31S3LoioAnz2
+R10
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R15
+R16
+Pdlx_pkg
+R6
+R7
+w1706990039
+R0
+8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/dlx_pkg.vhd
+FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/dlx_pkg.vhd
+l0
+L4
+VjQQ:X`]LeR<eeRDDn6H;S2
+!s100 Mz7J?LHV=I=c;@=OUg_Oj2
+R10
+32
+R20
+!i10b 1
+R21
+!s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/dlx_pkg.vhd|
+!s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/dlx_pkg.vhd|
+!i113 1
+R15
+R16
+Eexecute_stage
+Z24 w1707944153
+R2
+R3
+R6
+R7
+R0
+Z25 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/execute_stage.vhd
+Z26 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/execute_stage.vhd
+l0
+L9
+VL<c6:bJ:[25kj6AhYF0gL2
+!s100 ^IPnKFj7[40?[5VoCN<_>0
+R10
+32
+Z27 !s110 1707946805
+!i10b 1
+Z28 !s108 1707946805.000000
+Z29 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/execute_stage.vhd|
+Z30 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/execute_stage.vhd|
+!i113 1
+R15
+R16
+Artl
+R2
+R3
+R6
+R7
+DEx4 work 13 execute_stage 0 22 L<c6:bJ:[25kj6AhYF0gL2
+l34
+L28
+VEHVXCc743F8MDhdQ;d1oH3
+!s100 20V>9XC<15CShM3YYXQaT0
+R10
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R15
+R16
+Eexecute_tb
+Z31 w1707944549
+R3
+R4
+R5
+R6
+R7
+R0
+Z32 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/execute_tb.vhd
+Z33 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/execute_tb.vhd
+l0
+L7
+VW60bI_m>i;Q6Tke9dig7F2
+!s100 T3Z:KINCnfBI62IGb;ROW3
+R10
+32
+Z34 !s110 1707946307
+!i10b 1
+Z35 !s108 1707946307.000000
+Z36 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/execute_tb.vhd|
+Z37 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/execute_tb.vhd|
+!i113 1
+R15
+R16
+Abehavioral
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 execute_tb 0 22 W60bI_m>i;Q6Tke9dig7F2
+l42
+L10
+VC1KB>g;@zE7PWPi^iTMU;2
+!s100 B7SOK1`E;58iQz`4mcWm=1
+R10
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R15
+R16
+Efetch_stage
+Z38 w1706658348
+R3
+R4
+R5
+R6
+R7
+R0
+Z39 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/Fetch_stage.vhd
+Z40 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/Fetch_stage.vhd
+l0
+L6
+VCaMO=PRV_lS7RFYRJK^oj2
+!s100 S6E4E8Z:z0CARfC<F[oAl2
+R10
+32
+R20
+!i10b 1
+R21
+Z41 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/Fetch_stage.vhd|
+Z42 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/Fetch_stage.vhd|
+!i113 1
+R15
+R16
+Artl
+R3
+R4
+R5
+R6
+R7
+DEx4 work 11 fetch_stage 0 22 CaMO=PRV_lS7RFYRJK^oj2
+l31
+L17
+V?3iYXb8P@88`HIUe<jiXc2
+!s100 jJn5WUeneNGQ<4faTW2ch3
+R10
+32
+R20
+!i10b 1
+R21
+R41
+R42
+!i113 1
+R15
+R16
+Einstructions_rom
+Z43 w1706578590
+Z44 DPx9 altera_mf 20 altera_mf_components 0 22 gV:l9C^?PSb6]b5V?_jR@3
+R6
+R7
+R0
+Z45 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/instructions_ROM.vhd
+Z46 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/instructions_ROM.vhd
+l0
+L42
+V0PURkFdc?g48X1<Ghn6k=1
+!s100 80XY;OPS1U2W`f7ezVLXN1
+R10
+32
+Z47 !s110 1707947645
+!i10b 1
+Z48 !s108 1707947645.000000
+Z49 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/instructions_ROM.vhd|
+Z50 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/instructions_ROM.vhd|
+!i113 1
+R15
+R16
+Asyn
+R44
+R6
+R7
+Z51 DEx4 work 16 instructions_rom 0 22 0PURkFdc?g48X1<Ghn6k=1
+l56
+L52
+Z52 VAn3CL8LAiS?]a_cO:0gTz1
+Z53 !s100 iTK5fIAneQohBKgn[fj^92
+R10
+32
+R47
+!i10b 1
+R48
+R49
+R50
+!i113 1
+R15
+R16
+Eregister_ram
+Z54 w1707003293
+R6
+R7
+R0
+Z55 8C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/register_RAM.vhd
+Z56 FC:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/register_RAM.vhd
+l0
+L4
+VbXQfCHdzC3WOSTJQSoa;>0
+!s100 ;B4<J>lA2EW5cMKVZFob_0
+R10
+32
+R20
+!i10b 1
+R21
+Z57 !s90 -reportprogress|300|-work|work|C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/register_RAM.vhd|
+Z58 !s107 C:/Users/adminstrator/Spring2024/AdvancedReconfig/Execute/register_RAM.vhd|
+!i113 1
+R15
+R16
+Artl
+R6
+R7
+DEx4 work 12 register_ram 0 22 bXQfCHdzC3WOSTJQSoa;>0
+l31
+L19
+VDVfQU>QLPn7RL6;N8DcO?2
+!s100 `aa@:hHkzCjB88U6SHi5>2
+R10
+32
+!s110 1707939215
+!i10b 1
+R21
+R57
+R58
+!i113 1
+R15
+R16
